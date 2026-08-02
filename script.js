@@ -63,6 +63,7 @@ document.querySelectorAll('[data-interest]').forEach(button => button.addEventLi
 }));
 interestModal.querySelector('.modal-close').addEventListener('click', closeInterest);
 interestModal.querySelector('.modal-ok').addEventListener('click', closeInterest);
+interestModal.querySelector('.whatsapp-button').addEventListener('click', closeInterest);
 interestModal.addEventListener('click', event => { if (event.target === interestModal) closeInterest(); });
 
 document.addEventListener('keydown', event => {
