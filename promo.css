@@ -1,0 +1,20 @@
+.offer{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;background:radial-gradient(ellipse at 78% 48%,rgba(105,52,217,.22),transparent 52%)}
+.offer-intro>p:not(.eyebrow){color:var(--muted);font-size:17px;line-height:1.65;max-width:570px}
+.trial-points{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.trial-points span{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid var(--line);border-radius:9px;color:#dce3ef;font-size:13px;background:rgba(11,16,27,.7)}
+.trial-points b{color:var(--blue);font:700 19px 'Space Grotesk'}
+.promo-card{position:relative;overflow:hidden;padding:31px;border:1px solid rgba(177,90,255,.72);border-radius:18px;background:linear-gradient(135deg,rgba(22,26,52,.92),rgba(8,13,25,.96) 64%);box-shadow:0 0 48px rgba(91,51,232,.14)}
+.promo-card:before{content:"";position:absolute;width:250px;height:250px;border-radius:50%;right:-75px;top:-115px;background:radial-gradient(circle,rgba(61,214,255,.38),transparent 67%)}
+.promo-top,.promo-price,.bonus,.promo-card>a,.after-promo{position:relative;z-index:1}
+.promo-top{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:10px;letter-spacing:1px}
+.promo-top span{color:var(--blue);font-weight:700}.promo-top strong{color:#e1baff;font-size:10px}
+.promo-price{padding:30px 0 22px;border-bottom:1px solid rgba(127,151,198,.19)}
+.promo-price small{display:block;color:#aeb8ca;font-size:13px;margin-bottom:5px}
+.promo-price b{font:700 32px 'Space Grotesk';letter-spacing:-2px}
+.promo-price b em{font-size:72px;font-style:normal;line-height:.8;background:linear-gradient(110deg,var(--blue),#6e94ff 42%,var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}
+.promo-price p,.after-promo{color:#acb6c8;font-size:12px;margin:12px 0 0}
+.bonus{display:flex;gap:14px;align-items:center;padding:21px 0}.bonus i{font-style:normal;font-size:30px;color:#ffd55b}
+.bonus b,.bonus span{display:block}.bonus b{font-size:14px}.bonus span{color:#adb7c8;font-size:12px;margin-top:4px}
+.promo-card .button{width:100%}.after-promo{text-align:center;font-size:11px}
+@media(max-width:900px){.offer{grid-template-columns:1fr}}
+@media(max-width:560px){.offer{gap:22px}.promo-card{padding:22px}.promo-top{align-items:flex-start;flex-direction:column}.promo-price b em{font-size:62px}}

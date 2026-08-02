@@ -1,0 +1,33 @@
+/*
+  ProteÃ§Ã£o de proporÃ§Ã£o: estas imagens sÃ£o artes oficiais. Nenhuma altura
+  fixa Ã© aplicada a elas; o navegador sempre preserva a proporÃ§Ã£o original.
+*/
+.hero-visual > img {
+  width: 100% !important;
+  max-width: none !important;
+  height: auto !important;
+  aspect-ratio: 4 / 3;
+  object-fit: contain !important;
+  transform: none !important;
+  image-rendering: auto;
+}
+
+.devices-visual img,
+.phone-shot img,
+.tablet-shot img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.phone-shot { aspect-ratio: 2 / 3; }
+.tablet-shot { aspect-ratio: 4 / 3; }
+
+@media (max-width: 900px) {
+  .hero-visual > img { width: 100% !important; }
+}
+
+@media (max-width: 560px) {
+  .hero-visual > img { width: 100% !important; }
+}
