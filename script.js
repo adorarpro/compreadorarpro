@@ -4,8 +4,8 @@ const faqs = [
   ['Posso alterar o tom das cifras?', 'Sim. O leitor permite transpor o tom para cima ou para baixo, voltar ao tom original e ajustar a visualização.'],
   ['O sistema possui perfis diferentes?', 'Sim. Há acesso para líder e músico, permitindo uma experiência adequada ao papel de cada integrante.'],
   ['Posso adicionar áudio às músicas?', 'Sim. É possível vincular arquivos MP3 locais às cifras para estudar e ensaiar com uma referência.'],
-  ['Como funciona a licença vitalícia?', 'O pagamento é único e libera o uso da plataforma sem mensalidade recorrente.'],
-  ['O teste de 7 dias possui limitações?', 'A proposta do teste é permitir que sua equipe conheça a experiência antes de decidir pela licença.'],
+  ['Qual é o valor da assinatura?', 'O plano Adorar Essencial começa a partir de R$9,90 por mês. Pacotes maiores para igrejas e equipes devem ser consultados com a equipe de vendas.'],
+  ['Quais são os pacotes disponíveis?', 'Os pacotes são Adorar Essencial, Adorar Igreja e Adorar Pro. O Essencial é o plano inicial; Igreja e Pro são montados conforme a necessidade do ministério.'],
   ['O acervo pode receber novas músicas?', 'Sim. O catálogo pode ser atualizado e organizado por artistas, mantendo a biblioteca sempre útil para a equipe.']
 ];
 
